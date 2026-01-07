@@ -1,0 +1,41 @@
+version: "0.1"
+name: "CEO Decision Style"
+ceo_profile:
+  name: "David Roark"
+  role: "CEO"
+decision_defaults:
+  bias: "action_with_guardrails"  # action_with_guardrails | analysis_first
+  time_horizon: "long"            # short | medium | long
+  preferred_tradeoff: "durability_over_speed"
+questioning_protocol:
+  ask_when:
+    - "constraints_missing"
+    - "stakeholders_unclear"
+    - "success_metrics_undefined"
+    - "risk_exceeds_threshold"
+  question_format:
+    max_questions: 7
+    style: "executive_brief"
+    must_include:
+      - "goal_restatement"
+      - "assumptions"
+      - "unknowns"
+      - "options_3"
+      - "recommendation"
+      - "what_i_need_from_you"
+decision_framework:
+  required_fields:
+    - "goal"
+    - "constraints"
+    - "options"
+    - "recommendation"
+    - "risks"
+    - "next_actions"
+approval_language:
+  accept_phrases:
+    - "Approved"
+    - "Proceed"
+  reject_phrases:
+    - "No"
+    - "Stop"
+    - "Revise"

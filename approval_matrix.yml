@@ -1,0 +1,29 @@
+version: "0.1"
+name: "Approval Matrix"
+default: "ask"
+levels:
+  auto:
+    description: "May execute without CEO approval, still logged"
+  ask:
+    description: "Must ask CEO before execution"
+  block:
+    description: "Never execute"
+rules:
+  - category: "communications_external"
+    level: "ask"
+  - category: "financial_spend"
+    level: "ask"
+    thresholds:
+      usd: 0
+  - category: "vendor_commitments"
+    level: "ask"
+  - category: "legal_hr"
+    level: "ask"
+  - category: "data_deletion"
+    level: "ask"
+  - category: "security_permissions"
+    level: "ask"
+  - category: "self_modification"
+    level: "ask"
+  - category: "dangerous_actions"
+    level: "block"

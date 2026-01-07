@@ -1,0 +1,35 @@
+version: "0.1"
+name: "AgentOS Constitution"
+mission:
+  north_star: ""
+  who_we_serve: ""
+  definition_of_win: ""
+values:
+  - ""
+non_negotiables:
+  - ""
+red_lines:
+  forbidden_actions:
+    - ""
+  forbidden_domains:
+    - ""
+risk_appetite:
+  default_mode: "balanced"   # conservative | balanced | aggressive
+  escalation_thresholds:
+    legal: "always_escalate"
+    financial:
+      spend_without_approval_usd: 0
+    reputation: "always_escalate"
+    safety: "always_escalate"
+governance:
+  human_in_the_loop:
+    required_for:
+      - "external_communications"
+      - "spend_money"
+      - "sign_commitments"
+      - "legal_or_hr_actions"
+  audit_log:
+    required: true
+    retention_days: 3650
+operating_principles:
+  - ""
