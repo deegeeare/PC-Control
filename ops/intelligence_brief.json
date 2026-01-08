@@ -1,0 +1,31 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Nexus Notification Schema",
+  "type": "object",
+  "required": [
+    "signal",
+    "resonance_score",
+    "skeptic_note",
+    "four_year_projection"
+  ],
+  "properties": {
+    "signal": {
+      "type": "string",
+      "description": "The distilled truth from the Signal Scout."
+    },
+    "resonance_score": {
+      "type": "number",
+      "minimum": 0.85,
+      "maximum": 1.0,
+      "description": "Calculated float representing the signal's equilibrium strength."
+    },
+    "skeptic_note": {
+      "type": "string",
+      "description": "The Counter-Point identified by the Skeptic Protocol."
+    },
+    "four_year_projection": {
+      "type": "string",
+      "description": "The ripple effect of this information over a 4-year horizon."
+    }
+  }
+}
