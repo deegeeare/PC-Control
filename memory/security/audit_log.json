@@ -1,0 +1,14 @@
+[
+  {
+    "timestamp": 1767906502.1909804,
+    "node_id": "CISO_SENTINEL",
+    "action": "LOCKDOWN_TRIGGERED",
+    "resonance_variance": 1.0
+  },
+  {
+    "timestamp": 1767906650.0113227,
+    "node_id": "CISO_SENTINEL",
+    "action": "LOCKDOWN_TRIGGERED",
+    "resonance_variance": 1.0
+  }
+]
