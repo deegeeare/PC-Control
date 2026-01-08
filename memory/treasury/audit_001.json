@@ -1,0 +1,24 @@
+{
+  "source_brief": "While the expansion vector suggests AI is rewiring...",
+  "ledger_state": {
+    "burn_forecast_monthly": 127777.77777777777,
+    "burn_uncertainty": 57.735026918962575,
+    "aura_reserve": 1000000.0
+  },
+  "execution_plan": {
+    "project_name": "Execution Plan: While the expansion ",
+    "estimated_cost": 2000000.0,
+    "liquidity_impact": {
+      "monthly_cost_amortized": 166666.66666666666,
+      "projected_runway_impact_months": 3.333333333333333,
+      "remaining_runway_months": 44.666666666666664
+    },
+    "strategic_value_score": 0.0,
+    "status": "PROPOSED"
+  },
+  "roi_analysis": {
+    "score": 0.0,
+    "decision": "VETOED"
+  },
+  "credit_memo_path": "memory/treasury/credit_memos/CREDIT_MEMO_Energy_Resilience_Grid.md"
+}
