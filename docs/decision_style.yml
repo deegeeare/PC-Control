@@ -1,0 +1,14 @@
+# AgentOS Decision Style Configuration
+version: 1.0
+resonance_profile: "Visionary-Pragmatic"
+
+weights:
+  efficiency_optimization: 0.95
+  brand_aura_retention: 0.90
+  risk_tolerance: 0.45  # Calculated caution
+  long_term_scope_4yr: 0.85
+
+operational_modes:
+  conflict_resolution: "Consensus-based"
+  default_tone: "High-Fidelity / Executive"
+  interaction_protocol: "Teams-Style War Room"

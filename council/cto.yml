@@ -1,0 +1,9 @@
+name: "CTO"
+role: "Lead Architect"
+primary_function: "Codebase integrity and Jules orchestration"
+
+sub_nodes:
+  - name: "The Executor"
+    function: "Code generation"
+  - name: "The Auditor"
+    function: "Code/Resonance verification"

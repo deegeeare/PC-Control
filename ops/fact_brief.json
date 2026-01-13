@@ -1,0 +1,32 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Fact-Distillation Brief",
+  "type": "object",
+  "required": [
+    "HARD_FACTS",
+    "EQUILIBRIUM_VIEW",
+    "CEO_KEY_ACTIONS",
+    "TEAM_DIRECTIVES"
+  ],
+  "properties": {
+    "HARD_FACTS": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Quantifiable data (Numbers, Dates, Entities)."
+    },
+    "EQUILIBRIUM_VIEW": {
+      "type": "string",
+      "description": "The bias-neutralized summary accounting for both Bull and Bear views."
+    },
+    "CEO_KEY_ACTIONS": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "High-order strategic decisions."
+    },
+    "TEAM_DIRECTIVES": {
+      "type": "object",
+      "additionalProperties": { "type": "string" },
+      "description": "Specific tasks delegated to other Executives."
+    }
+  }
+}

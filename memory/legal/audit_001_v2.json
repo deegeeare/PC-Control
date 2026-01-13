@@ -1,0 +1,14 @@
+{
+  "target_document": "memory/treasury/credit_memos/CREDIT_MEMO_Energy_Resilience_Grid.md",
+  "veto_context": "Project Vetoed by CFO (ROI 0.11)",
+  "autopsy_results": {
+    "auditor": "CLO Node (Adversary)",
+    "status": "AUTOPSY_COMPLETE",
+    "liability_exposure_score": 0.8,
+    "legal_findings": [
+      "CRITICAL TRAIGA VIOLATION: High-risk sector project (Energy/Infra) lacks explicit Human-in-the-Loop (HITL) disclosures. Mandatory Remediation: Insert Clause 7.2 'The Sovereign Switch' ensuring human override capability."
+    ],
+    "verdict": "FAILED"
+  },
+  "clo_recommendation": "SUSTAIN_VETO. Proceeding would have triggered TRAIGA non-compliance penalties."
+}
